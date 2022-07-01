@@ -35,7 +35,9 @@ You can view this application deployed on heroku here: https://nameless-temple-0
 * JDBC;
 * Servlet API;
 * MySQL;
-* Tomcat, Heroku.
+* JSP;
+* Tomcat;
+* Heroku.
 
 ***
 
