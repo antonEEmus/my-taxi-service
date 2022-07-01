@@ -29,5 +29,6 @@
         </td>
     </tr>
 </table>
+<a href="${pageContext.request.contextPath}/index"><button>Main page</button></a>
 </body>
 </html>
