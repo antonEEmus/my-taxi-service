@@ -1,6 +1,6 @@
 ﻿# :oncoming_taxi: Taxi service :oncoming_taxi:
  
- `A simple web application that supports authentication, registration and basic CRUD operations.`
+ `A simple web application that supports authentication, registration, and basic CRUD operations.`
  
  ### Features
 
@@ -17,9 +17,7 @@ When you enter a site, Authentication Filter check if you are authenticated. If 
 where you can log in or register by creating a new driver. After authentication, it passes you to the main page, where
 you can visit the links of creating, viewing or deleting manufacturers, drivers and cars. When logged in, you can view 
 your current cars. Also, you can log out by pressing the button at the header of the site.
-
-Application uses relational database for storing data about manufacturers, drivers, cars and many-to-many relations
-between cars & drivers.
+Taxi service app uses N-tier architecture model with three layers: Controller, Service and DAO, and a relational database for storing data about manufacturers, drivers, cars and many-to-many relations between cars & drivers.
 
 ![diagram](join-db-diagram.png)
 
@@ -35,7 +33,8 @@ You can view this application deployed on heroku here: https://nameless-temple-0
 * JDBC;
 * Servlet API;
 * MySQL;
-* JSP;
+* JSP, JSTL;
+* CSS;
 * Tomcat;
 * Heroku.
 
