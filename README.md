@@ -1,6 +1,6 @@
 ﻿# :oncoming_taxi: Taxi service :oncoming_taxi:
  
- `A simple web application that supports authentication, registration, and basic CRUD operations.`
+ `A simple web application that supports authentication, and basic CRUD operations.`
  
  ### Features
 
@@ -13,7 +13,7 @@
 
 ### Description:
 
-When you enter a site, Authentication Filter check if you are authenticated. If not, it redirects you to login page,
+When you enter the site, Authentication Filter check if you are authenticated. If not, it redirects you to login page,
 where you can log in or register by creating a new driver. After authentication, it passes you to the main page, where
 you can visit the links of creating, viewing or deleting manufacturers, drivers and cars. When logged in, you can view 
 your current cars. Also, you can log out by pressing the button at the header of the site.
